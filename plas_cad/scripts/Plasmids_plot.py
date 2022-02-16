@@ -173,3 +173,5 @@ def plasmids_prepare(plas_fasta,conj_sum):
 
 if __name__ == "__main__":
     plasmids_prepare(str(args.i) + ".fasta",str(args.i) + "_Conj_plasmids_loc_sum.txt")
+    plasmids_prepare(str(args.i) + ".fasta",str(args.i) + "_mob_unconj_plasmids_loc_sum.txt")
+    plasmids_prepare(str(args.i) + ".fasta",str(args.i) + "_unmob_plasmids_loc_sum.txt")
